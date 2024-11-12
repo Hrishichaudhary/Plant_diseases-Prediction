@@ -1,0 +1,2 @@
+# Plant_diseases-Prediction
+ Plant Disease Prediction with CNNs  This project implements a Convolutional Neural Network (CNN) model to identify various plant diseases from images. Leveraging data augmentation and regularization techniques, the model achieves enhanced accuracy while preventing overfitting. This repository includes data preparation, model architecture, training scripts, and performance evaluations for multi-class image classification using TensorFlow.
