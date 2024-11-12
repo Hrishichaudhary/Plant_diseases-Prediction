@@ -40,7 +40,7 @@ __Prerequisites__:
 
 ~~ Setup ~~
 __Clone the repository__:
-git clone https://github.com/Hrishichaudhary/plant_disease_prediction
+git clone git clone https://github.com/Hrishichaudhary/Plant_diseases-Prediction.git
 cd plant_disease_prediction
 
 __Install dependencies__:
