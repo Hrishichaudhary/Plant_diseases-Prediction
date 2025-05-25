@@ -51,41 +51,40 @@ This project leverages machine learning to detect plant diseases from leaf image
 
 # Setup
 
-* Clone the Repository:
+## Clone the Repository:
 
-  * git clone https://github.com/Hrishichaudhary/Plant_diseases-Prediction.git
-  * cd plant_disease_prediction
+    git clone https://github.com/Hrishichaudhary/Plant_diseases-Prediction.git
+    cd plant_disease_prediction
 
 # Install Dependencies:
 
- * pip install -r requirements.txt
+    pip install -r requirements.txt
 
-   * This installs required packages like tensorflow, keras, opencv-python, matplotlib, 
+ * This installs required packages like tensorflow, keras, opencv-python, matplotlib, 
      and seaborn.
 
 # Usage
 
  ## Training the Model
 
-   * Train the CNN model using your dataset:
+### Train the CNN model using your dataset:
 
-     * python src/train_model.py --data_dir data/ --epochs 50
+     python src/train_model.py --data_dir data/ --epochs 50
 
-       * --data_dir: Path to the dataset folder.
-       * --epochs: Number of training epochs (default: 50).
+   * --data_dir: Path to the dataset folder.
+   * --epochs: Number of training epochs (default: 50).
 
 # Running Predictions
 
 ## Classify a new plant leaf image:
 
-   * python src/predict.py --image_path path/to/image.jpg
-     * --image_path: Path to the input image.
+    python src/predict.py --image_path path/to/image.jpg
+* --image_path: Path to the input image.
 
 # Jupyter Notebooks
 
-Explore the notebooks/ directory for detailed data analysis, model experimentation, and 
-visualizations:
-  * jupyter notebook notebooks/
+## Explore the notebooks/ directory for detailed data analysis, model experimentation, and visualizations:
+    jupyter notebook notebooks/
 
 # Results
 
